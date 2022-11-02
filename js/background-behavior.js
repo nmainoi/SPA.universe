@@ -5,8 +5,8 @@ export default function backGroundBehavior() {
 
     switch (page) {
       case "/universe": 
-        body.style.background = 'url(../images/mountains-universe02.png)';
-       console.log( body.style)
+        body.style.background = 'url(../images/mountains-universe-2.png)';
+        break;
       case "/exploration":
         body.style.background = 'url(../images/mountains-universe-3.png)';
         break;
@@ -16,6 +16,7 @@ export default function backGroundBehavior() {
     }
     body.style.backgroundRepeat = "no-repeat";
     body.style.backgroundSize = "cover";
+    
   }
 
   return {
